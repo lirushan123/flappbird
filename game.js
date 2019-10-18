@@ -1,6 +1,6 @@
-import './js/libs/weapp-adapter'
-import './js/libs/symbol'
+//小游戏入口程序
 
-import Main from './js/main'
+//引入main模块
+import {Main} from './Main.js';
 
-new Main()
+new Main();
