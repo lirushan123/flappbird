@@ -1,10 +1,11 @@
-import {dataStore, DataStore} from './DataStore.js';
+import { DataStore } from "./DataStore.js";
+
 //各种图片的父类
 export class Sprite{
     constructor(img=null,srcX=0,srcY=0,srcW=0,srcH=0,x=0,y=0,width=0,height=
         0){
             //获取变量值
-            const dataStore=DataStor.getInstance();
+            const dataStore=DataStore.getInstance();
             this.ctx=dataStore.ctx;
             this.img=img; //图片
 
