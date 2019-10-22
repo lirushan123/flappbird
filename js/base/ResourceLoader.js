@@ -16,7 +16,7 @@ export class ResourceLoader{
             img.src=v;//将图片路径赋值给img的src属性
             //将原来的字符串替换为img对象(重新设置对应的值)
             //map.set(key,value)设置map集合中某个key的值为value
-            this.map.set(k,img)
+            this.map.set(k,img);
 
         }
         //console.log(this.map);
