@@ -1,12 +1,13 @@
 //变量池，用于保存游戏过程中用到的所有数据，方便我们在不同的类中访问和修改变量
 
 export class DataStore{
-    construnctor(){
+    constructor(){
         //用于保存数据
         this.map=new Map();
     }
     //单例，保证变量池只有一个
     static getInstance(){
+        
         if(!DataStore.instance){
             DataStore.instance=new DataStore();
         }
